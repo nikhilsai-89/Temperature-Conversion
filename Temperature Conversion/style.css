@@ -1,0 +1,26 @@
+
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("PXL_20231014_121749502~2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+.main{
+    z-index: 10;
+    display: flex;
+    gap: 20px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.cel_inp, .fah_inp, .kel_inp, body p{
+    
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff26;
+    backdrop-filter: blur(10px);
+}
